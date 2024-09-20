@@ -25,6 +25,7 @@ function HighScores() {
           }
         });
 
+
         setHighScores(newHighScores);
       });
   }, []);
@@ -39,7 +40,11 @@ function HighScores() {
 
       case 'undergroundLab':
         return 'Underground Lab';
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> f50e1f7f767214b5ac4d0b3bec50b6c29f6c5ff2
       default:
         return null;
     }
